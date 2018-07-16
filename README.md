@@ -20,6 +20,13 @@
   - Alligator clips
   - Micro-USB Cable
 
+**Download IDE**  
+- https://www.arduino.cc/en/Main/Software
+
+**Download Circuit Playground Library**
+- https://learn.adafruit.com/introducing-circuit-playground/circuit-playground-library
+- May have to install USB drivers: https://learn.adafruit.com/introducing-circuit-playground/windows-driver-installation
+
 ## Week 1
 
 **Monday 7/16: Intro to Arduinos and Variables**
