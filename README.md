@@ -1,4 +1,4 @@
-#Code Community
+# Code Community
 
 **Overview**
 
@@ -19,7 +19,7 @@
    Alligator clips
    Micro-USB Cable
 
-#Week 1
+## Week 1
 
 **Monday 7/16: Intro to Arduinos and Variables**
 Goals
@@ -47,7 +47,7 @@ Goals
   Explore Neopixel library
   Iterate through Arrays and Loops
 
-#Week 2
+## Week 2
 
 **Monday 7/23  Functions**
 Goals
@@ -56,11 +56,11 @@ Goals
   Return values
 
 **Tuesday 7/24  Prep for Play Testing**
-  Prep for Play Testing
+Prep for Play Testing
   Build an initial prototype for working with residents at Elizabeth Seton
 
 **Wednesday 7/25  Play Testing**
-  Test out initial prototype at Elizabeth Seton
+Test out initial prototype at Elizabeth Seton
 
 **Thursday 7/26  Classes/Objects**
 Goals
@@ -73,7 +73,7 @@ Goals
   Have two Arduino’s speak to each other
 
 
-#Week 3
+## Week 3
 
 **Monday 7/30  Work on Projects**
   Work on 2nd iteration of prototype
