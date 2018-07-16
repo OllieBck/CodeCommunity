@@ -1,21 +1,21 @@
 # Code Community
 
-**Overview**
+## Overview
 
-**Program:** Hardware Hacking
-**Instructor:** Jason Beck
+**Program:** Hardware Hacking   
+**Instructor:** Jason Beck   
 **Email:** jason@adaptivedesign.org
 
 **Coding Details**
-**Language:** Arduino
-**Documentation:** https://www.arduino.cc/reference/en/#page-title and https://learn.adafruit.com/adafruit-circuit-playground-express
-**Downloads:** https://www.arduino.cc/en/Main/Software (or Web Editor if download does not work)
+**Language:** Arduino   
+**Documentation:** https://www.arduino.cc/reference/en/#page-title and https://learn.adafruit.com/adafruit-circuit-playground-express   
+**Downloads:** https://www.arduino.cc/en/Main/Software (or Web Editor if download does not work)   
 **Code Examples:** https://github.com/OllieBck/CodeCommunity
 
 
-**Hardware Details**
-**Board:** Adafruit Circuit Playground Classic
-**Documentation:** https://learn.adafruit.com/adafruit-circuit-playground-express 
+**Hardware Details**   
+**Board:** Adafruit Circuit Playground Classic   
+**Documentation:** https://learn.adafruit.com/adafruit-circuit-playground-express   
 **Other Materials:**
   - Alligator clips
   - Micro-USB Cable
