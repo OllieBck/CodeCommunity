@@ -15,7 +15,7 @@
 
 **Hardware Details**
 **Board:** Adafruit Circuit Playground Classic
-**Documentation:** https://learn.adafruit.com/adafruit-circuit-playground-express
+**Documentation:** https://learn.adafruit.com/adafruit-circuit-playground-express 
 **Other Materials:**
   - Alligator clips
   - Micro-USB Cable
