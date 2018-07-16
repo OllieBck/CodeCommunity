@@ -70,16 +70,16 @@
 ## Week 3
 
 **Monday 7/30  Work on Projects**
-  Work on 2nd iteration of prototype
+- Work on 2nd iteration of prototype
 
 **Tuesday 7/31  Work on Projects**
-  Work on 2nd iteration of prototype
+- Work on 2nd iteration of prototype
 
 **Wednesday 8/1  Final Show with ESPC**
-  Show final prototype to participants at Elizabeth Seton
+- Show final prototype to participants at Elizabeth Seton
 
 **Thursday 8/2  Prep for Showcase**
-  Modify adjust project for showcase
+- Modify adjust project for showcase
 
 **Friday 8/3  Showcase**
-  Demonstrate projects for visitors at showcase
+- Demonstrate projects for visitors at showcase
