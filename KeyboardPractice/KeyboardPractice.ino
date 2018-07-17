@@ -14,7 +14,7 @@ void loop() {
   //if the button is pressed
   if(digitalRead(printButton)==HIGH){
     //Send the message
-    Keyboard.print("Hello!");
+    Keyboard.write(61);
+    delay(500);
   }
 }
-
