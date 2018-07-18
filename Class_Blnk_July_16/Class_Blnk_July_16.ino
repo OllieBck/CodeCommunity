@@ -1,5 +1,5 @@
 int pinLED = 13; // global variable
-int shortCount = 500;
+int shortCount = 500; // 
 int longCount = 1000;
 
 void setup() {
