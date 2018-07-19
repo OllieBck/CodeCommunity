@@ -1,3 +1,7 @@
+/*
+Builds off the BlinkWithoutDelay http://www.arduino.cc/en/Tutorial/BlinkWithoutDelay and "Multi-Tasking the Arduino" https://learn.adafruit.com/multi-tasking-the-arduino-part-1/a-classy-solution
+*/
+
 
 #include<Adafruit_CircuitPlayground.h>
 
@@ -18,7 +22,7 @@ class Blinker {
 
   void blinkLed(int interval, int redColor, int greenColor, int blueColor){
     unsigned long currentMillis = millis();
-    
+
     if (currentMillis - previousMillis >= interval){
       previousMillis = currentMillis;
       if (ledState == false) {
@@ -37,4 +41,3 @@ class Blinker {
     }
   }
 };
-

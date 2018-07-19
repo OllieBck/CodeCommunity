@@ -46,6 +46,7 @@
   - Adding libraries to sketches
   - Controlling keyboard/mouse from Arduino
   - Getting accelerometer data
+  - https://www.atari.com/arcade#!/arcade/atari-promo
 
 **Friday 7/20  Arrays and Loops and NeoPixel Library**
   - Explore Neopixel library

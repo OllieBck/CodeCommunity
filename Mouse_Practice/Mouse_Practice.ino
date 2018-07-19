@@ -1,27 +1,25 @@
 #include<Mouse.h>
-#include<Keyboard.h>
 
 int mouseButton = 4;
-int wButton = 19;
+int mouseMove = 19;
 
 void setup() {
   // put your setup code here, to run once:
   Mouse.begin();
-  Keyboard.begin();
   pinMode(mouseButton, INPUT);
-  pinMode(wButton, INPUT);
+  pinMode(mouseMove, INPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  int mouseReading = digitalRead(mouseButton);
-  int wReading = digitalRead(wButton);
+  int clickReading = digitalRead(mouseButton);
+  int moveReading = digitalRead(mouseMove);
 
-  if (mouseReading == HIGH) {
+  if (clickReading == HIGH) {
     Mouse.click();
   }
 
-  if (wReading == HIGH){
-    Keyboard.write(32);
+  if (moveReading == HIGH){
+    Mouse.move(0, 10, 0);
   }
 }
