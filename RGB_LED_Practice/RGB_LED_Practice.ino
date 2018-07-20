@@ -1,13 +1,12 @@
 #include <Adafruit_CircuitPlayground.h>
 
-const int buttonPin = 4;
-int ledPin = 17;
+int buttonPin = 4;
 
 void setup() {
   // put your setup code here, to run once:
   pinMode(buttonPin, INPUT);
-  pinMode(ledPin, OUTPUT);
   CircuitPlayground.begin();
+  CircuitPlayground.setBrightness(10);
 }
 
 void loop() {
@@ -15,13 +14,12 @@ void loop() {
   int buttonPress = digitalRead(buttonPin);
 
   if (buttonPress == HIGH) {
-    CircuitPlayground.setPixelColor(0, 0, varColor, 0);
-    CircuitPlayground.setPixelColor(4, 0, varColor, 0);
-    CircuitPlayground.setPixelColor(5, 0, varColor, 0);
-    CircuitPlayground.setPixelColor(9, 0, varColor, 0);
+    CircuitPlayground.setPixelColor(0, 0, 255, 0);
+    CircuitPlayground.setPixelColor(4, 0, 255, 0);
+    CircuitPlayground.setPixelColor(5, 0, 255, 0);
+    CircuitPlayground.setPixelColor(9, 0, 255, 0);
   }
   else {
     CircuitPlayground.clearPixels();
   }
 }
-

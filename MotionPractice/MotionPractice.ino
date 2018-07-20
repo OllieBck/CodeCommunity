@@ -8,11 +8,11 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  Serial.print("X Motion: ");
-  Serial.println(CircuitPlayground.motionX());
+  Serial.print(" X Motion: ");
+  Serial.print(CircuitPlayground.motionX());
   Serial.print(" Y Motion: ");
-  Serial.println(CircuitPlayground.motionY());
+  Serial.print(CircuitPlayground.motionY());
   Serial.print(" Z Motion: ");
   Serial.println(CircuitPlayground.motionZ());
-  delay(1000);
+  delay(100);
 }
