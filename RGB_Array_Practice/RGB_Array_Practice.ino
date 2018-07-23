@@ -9,12 +9,10 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  for (int i=0; i<11; i++){
-    CircuitPlayground.setPixelColor(i, 0, 200, 0);
-    delay(1000); 
+  for (int i=0; i<10; i++){
+    for (int t = 0; t < 255; t++){
+    CircuitPlayground.setPixelColor(pixelPins[i], 255, 20, 203);
+
   }
-  for (int t=9; t>-1; t--){
-    CircuitPlayground.setPixelColor(t, 0, 0, 0);
-    delay(1000);
-  }
+  
 }
