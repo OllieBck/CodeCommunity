@@ -10,15 +10,13 @@
 }
 
 void loop() {
+  if (CircuitPlayground.leftButton() == true){
+    Serial.write('h');
+  }
+  
   if (Serial.available() > 0) {
-    // read the incoming byte:
     char compData = Serial.read();
-    // read the sensor:
-    float sensorValue = CircuitPlayground.motionX();
-    // print the results:
-    Serial.print("X Value: ");
-    Serial.print(sensorValue);
-    Serial.print(" Value of Data: ");
+    Serial.print("Value of Data: ");
     Serial.println(compData);
   }
 }
